@@ -34,7 +34,7 @@ var person = { // this time I set up a sample person
   occupation: "Software Developer"
 };
 
-function printFullName() {
+function printFullName () {
   console.log(this.firstName + " " + this.lastName);
 }
 
